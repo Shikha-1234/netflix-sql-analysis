@@ -1,8 +1,7 @@
 # Netflix SQL Analysis Project
 
 
-
-\## Overview
+## Overview
 
 This project analyzes the Netflix Movies and TV Shows dataset using SQL (SQLite).  
 
@@ -14,21 +13,21 @@ The dataset contains \*\*8,807 titles\*\* including movies and TV shows.
 
 
 
-\---
+---
 
 
 
-\## Dataset Information
+## Dataset Information
 
 
 
-\- Source: Kaggle (Netflix Titles Dataset)
+- Source: Kaggle (Netflix Titles Dataset)
 
-\- Total Records: 8,807
+- Total Records: 8,807
 
-\- Columns:
+- Columns:
 
-&#x20; - show\_id
+&#x20; - show_id
 
 &#x20; - type (Movie / TV Show)
 
@@ -40,9 +39,9 @@ The dataset contains \*\*8,807 titles\*\* including movies and TV shows.
 
 &#x20; - country
 
-&#x20; - date\_added
+&#x20; - date_added
 
-&#x20; - release\_year
+&#x20; - release_year
 
 &#x20; - rating
 
@@ -54,29 +53,29 @@ The dataset contains \*\*8,807 titles\*\* including movies and TV shows.
 
 
 
-\---
+---
 
 
 
-\## Tools Used
+## Tools Used
 
 
 
-\- SQLite (DB Browser for SQLite)
+- SQLite (DB Browser for SQLite)
 
-\- SQL (Data Analysis)
+- SQL (Data Analysis)
 
-\- CSV Dataset
+- CSV Dataset
 
-\- GitHub for version control
-
-
-
-\---
+- GitHub for version control
 
 
 
-\## Objectives
+---
+
+
+
+## Objectives
 
 
 
@@ -84,175 +83,184 @@ The main objectives of this analysis were:
 
 
 
-\- Understand content distribution on Netflix
+- Understand content distribution on Netflix
 
-\- Identify top contributing countries
+- Identify top contributing countries
 
-\- Analyze content rating patterns
+- Analyze content rating patterns
 
-\- Study Netflix content growth over time
+- Study Netflix content growth over time
 
-\- Identify key contributors (directors)
+- Identify key contributors (directors)
 
-\- Extract duration and release trends
+- Extract duration and release trends
 
 
 
-\---
+---
 
 
 
-\## Key SQL Analyses Performed
+## Key SQL Analyses Performed
 
 
 
-\### 1. Content Type Distribution
+### 1. Content Type Distribution
 
-\- Movies: 6131  
+- Movies: 6131  
 
-\- TV Shows: 2676  
+- TV Shows: 2676  
 
 
 
-\---
+---
 
 
 
-\### 2. Content Ratings Analysis
+### 2. Content Ratings Analysis
 
-\- Most common rating: TV-MA (3207)
+- Most common rating: TV-MA (3207)
 
-\- Followed by: TV-14, TV-PG
+- Followed by: TV-14, TV-PG
 
 
 
-\---
+---
 
 
 
-\### 3. Top 10 Countries
+### 3. Top 10 Countries
 
-\- United States dominates with 2818 titles
+- United States dominates with 2818 titles
 
-\- India is second with 972 titles
+- India is second with 972 titles
 
 
 
-\---
+---
 
 
 
-\### 4. Release Year Trends
+### 4. Release Year Trends
 
-\- Peak content years: 2017–2019
+- Peak content years: 2017–2019
 
-\- Maximum titles in 2018 (1147)
+- Maximum titles in 2018 (1147)
 
 
 
-\---
+---
 
 
 
-\### 5. Top Directors
+### 5. Top Directors
 
-\- Rajiv Chilaka (19 titles)
+- Rajiv Chilaka (19 titles)
 
-\- Raúl Campos \& Jan Suter (18 titles)
+- Raúl Campos \& Jan Suter (18 titles)
 
 
 
-\---
+---
 
 
 
-\### 6. Content Growth Over Time
+### 6. Content Growth Over Time
 
-\- Major expansion after 2016
+- Major expansion after 2016
 
-\- Peak additions in 2019 (2016 titles)
+- Peak additions in 2019 (2016 titles)
 
 
 
-\---
+---
 
 
 
-\### 7. Longest Duration Movies
+### 7. Longest Duration Movies
 
-\- Includes special formats like \*Black Mirror: Bandersnatch (312 min)\*
+- Includes special formats like \*Black Mirror: Bandersnatch (312 min)\*
 
-\- Shows Netflix hosts diverse content formats
+- Shows Netflix hosts diverse content formats
 
 
 
-\---
+---
 
 
 
-\### 8. Average Release Year
+### 8. Average Release Year
 
-\- Movies: 2013
+- Movies: 2013
 
-\- TV Shows: 2017
+- TV Shows: 2017
 
 
 
-\---
+---
 
 
 
-\## Key Insights
+## Key Insights
 
 
 
-\- Netflix content is heavily dominated by movies
+- Netflix content is heavily dominated by movies
 
-\- USA contributes the largest share of content
+- USA contributes the largest share of content
 
-\- Netflix expanded rapidly between 2016–2019
+- Netflix expanded rapidly between 2016–2019
 
-\- TV shows are generally newer than movies
+- TV shows are generally newer than movies
 
-\- A small group of directors contributed multiple titles
+- A small group of directors contributed multiple titles
 
-\- Netflix hosts diverse content formats including long interactive movies
+- Netflix hosts diverse content formats including long interactive movies
 
 
 
-\---
+---
 
 
 
-\## Project Structure
+## Project Structure
 
-netflix\_sql\_project/ │ ├── data/                # Dataset (CSV) ├── graphs/             # (For future visualizations) ├── queries/ │   ├── netflix\_queries.sql │   └── project\_notes.txt ├── netflix\_analysis.db └── README.md
+netflix_sql_project/
+│
+├── data/                # Dataset (CSV)
+├── queries/
+    │
+    ├── netflix_queries.sql
+    │
+    └── project_notes.txt
+├── netflix_analysis.db
+└── README.md
 
 
 
-\---
+---
 
 
 
-\## How to Run This Project
+## How to Run This Project
 
 
 
-1\. Open DB Browser for SQLite
+1. Open DB Browser for SQLite
 
-2\. Load `netflix\_analysis.db`
+2. Load `netflix_analysis.db`
 
-3\. Run queries from `netflix\_queries.sql`
+3. Run queries from `netflix_queries.sql`
 
-4\. Explore results and insights
+4. Explore results and insights
 
 
 
-\---
+---
 
 
 
-\## Author
+## Author
 
 
 
@@ -261,4 +269,3 @@ Shikha
 B.Sc Mathematics Student  
 
 Aspiring Data Analyst
-
