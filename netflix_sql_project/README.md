@@ -25,31 +25,31 @@ The dataset contains \*\*8,807 titles\*\* including movies and TV shows.
 
 - Total Records: 8,807
 
-- Columns:
+- Columns: 12
 
-&#x20; - show_id
+ - show_id
 
-&#x20; - type (Movie / TV Show)
+ - type (Movie / TV Show)
 
-&#x20; - title
+ - title
 
-&#x20; - director
+ - director
 
-&#x20; - cast
+ - cast
 
-&#x20; - country
+ - country
 
-&#x20; - date_added
+ - date_added
 
-&#x20; - release_year
+ - release_year
 
-&#x20; - rating
+ - rating
 
-&#x20; - duration
+ - duration
 
-&#x20; - listed\_in
+ - listed_in
 
-&#x20; - description
+ - description
 
 
 
