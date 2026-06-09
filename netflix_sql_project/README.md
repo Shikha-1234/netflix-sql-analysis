@@ -1,4 +1,4 @@
-\# Netflix SQL Analysis Project
+# Netflix SQL Analysis Project
 
 
 
