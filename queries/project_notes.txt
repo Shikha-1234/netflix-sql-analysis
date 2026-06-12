@@ -1,0 +1,127 @@
+Netflix SQL Project
+
+Dataset Summary
+--------------
+Total Netflix titles: 8,807
+
+Content Type Distribution
+-------------------------
+Movies: 6131
+TV Shows: 2676
+
+Insight:
+Movies represent the majority of Netflix content, accounting for more than twice the number of TV Shows.
+
+Content Ratings Distribution
+----------------------------
+1. TV-MA: 3207
+2. TV-14: 2160
+3. TV-PG: 863
+4. R: 799
+5. PG-13: 490
+6. TV-Y7: 334
+7. TV-Y: 307
+8. PG: 287
+9. TV-G: 220
+10. NR: 80
+
+Insight:
+TV-MA is the most common content rating, indicating that Netflix's catalog is heavily focused on mature audiences. TV-14 is the second largest category, suggesting a strong emphasis on teen and young-adult content.
+
+
+Top 10 Countries by Number of Titles
+------------------------------------
+United States: 2818
+India: 972
+United Kingdom: 419
+Japan: 245
+South Korea: 199
+Canada: 181
+Spain: 145
+France: 124
+Mexico: 110
+Egypt: 106
+
+Insight:
+The United States dominates Netflix's catalog with 2,818 titles, far exceeding any other country. India ranks second with 972 titles, demonstrating Netflix's significant investment in Indian content. The results indicate that Netflix maintains a strong global presence while relying heavily on content from a few major production markets.
+
+
+Release Year Analysis
+---------------------
+2018: 1147
+2017: 1032
+2019: 1030
+2020: 953
+2016: 902
+2021: 592
+2015: 560
+2014: 352
+2013: 288
+2012: 237
+
+Insight:
+Netflix's catalog is heavily concentrated in content released between 2016 and 2020. The peak year in the dataset is 2018 with 1,147 titles, reflecting Netflix's rapid content expansion during that period.
+
+
+Top Directors by Number of Titles
+---------------------------------
+Rajiv Chilaka           19
+Raúl Campos, Jan Suter  18
+Suhas Kadav	        16
+Marcus Raboy	        16
+Jay Karas	        14
+Cathy Garcia-Molina	13
+Youssef Chahine 	12
+Martin Scorsese	        12
+Jay Chapman	        12
+Steven Spielberg	11
+
+Insight:
+A small group of directors contributed multiple titles to Netflix's catalog. Rajiv Chilaka has the highest number of titles in the dataset with 19.
+
+
+Content Added by Year
+---------------------
+2008: 2
+2009: 2
+2010: 1
+2011: 13
+2012: 3
+2013: 11
+2014: 24
+2015: 82
+2016: 429
+2017: 1188
+2018: 1649
+2019: 2016
+2020: 1879
+2021: 1498
+
+Insight:
+Netflix content additions grew significantly after 2016, with a major surge between 2017 and 2019. The peak year was 2019 with 2016 titles added, showing Netflix's aggressive expansion of its content library during that period. After 2020, additions slightly declined but remained high, indicating a stabilizing content strategy.
+
+
+Longest Duration Movies
+----------------------
+Black Mirror: Bandersnatch  312 min
+Headspace: Unwind Your Mind 273 min
+The School of Mischief      253 min
+No Longer Kids              237 min
+Lock Your Girls In          233 min
+Raya and Sakina             230 min
+Once Upon a Time in America 229 min
+Sangam                      228 min
+Lagaan                      224 min
+Jodhaa Akbar                214 min
+
+Insight:
+Netflix movie durations show extreme variation, with some titles exceeding 300 minutes. This includes interactive and anthology-style content like Black Mirror: Bandersnatch. Most long-duration content appears to be special formats or regional films, indicating that Netflix hosts diverse content structures beyond standard feature-length movies.
+
+
+Average Release Year by Type
+---------------------------
+Movies: 2013
+TV Shows: 2017
+
+Insight:
+TV Shows in the Netflix catalog are on average newer than Movies, with an average release year of 2017 compared to 2013 for Movies. This suggests Netflix has been more aggressive in acquiring or producing newer TV content in recent years, while its movie catalog includes a larger proportion of older licensed films.
